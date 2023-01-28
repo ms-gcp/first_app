@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.responses import StreamingResponse 
 
-app - FastAPI()
+app = FastAPI()
 @app.get('/iris')
 def get_iris():
     import matplotlib.pyplot as plt
